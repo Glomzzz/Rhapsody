@@ -1,13 +1,11 @@
-<p style="align-content: center">
-  <img width="360" src="/public/assets/logo.png" alt="logo">
+<p align="center">
+  <img  width="360" src="/public/assets/logo.png" alt="logo">
 </p>
-<p style="align-content: center">
+<p align="center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"  alt="license"/></a>
-</p>
-
-<p style="align-content: center">
   <a href="https://t.me/+-8Oa1pnQuVhhNDg1"><img src="https://img.shields.io/badge/Telegram-2CA5E0?style=flat-squeare&logo=telegram&logoColor=white"></a>
 </p>
+
 
 # Rhapsody
 
