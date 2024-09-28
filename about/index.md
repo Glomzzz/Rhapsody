@@ -1,5 +1,10 @@
+---
+date: 2024-09-29 05:03
+icon: /assets/logo.png
+---
+
 <p style="align-content: center">
-  <img width="760" src="/public/assets/logo.png" alt="logo">
+  <img width="760" src="/assets/logo.png" alt="logo">
 </p>
 <p style="align-content: center">
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/License-MIT-green.svg"  alt="license"/></a>
@@ -63,3 +68,4 @@ Any suggestions or improvements to the Rhapsody project are welcome. You can par
 This project is licensed under the MIT License.
 
 Thank you for your interest in the Rhapsody project!
+
