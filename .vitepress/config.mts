@@ -57,7 +57,25 @@ export default defineConfig({
             {icon: 'github', link: 'https://github.com/Glomzzz/Rhapsody'}
         ],
         search: search[provider]
-    }
+    },
+    transformHead({ assets }) {
+        // 相应地调整正则表达式以匹配字体
+        const myFontFile = assets.find(file => file.endsWith(".ttf"))
+        if (myFontFile) {
+          return [
+            [
+              'link',
+              {
+                rel: 'preload',
+                href: myFontFile,
+                as: 'font',
+                type: 'font/woff2',
+                crossorigin: ''
+              }
+            ]
+          ]
+        }
+      }
 })
 
 const customElements = [

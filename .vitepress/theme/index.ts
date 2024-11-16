@@ -1,7 +1,10 @@
-import {h} from 'vue'
-import DefaultTheme from 'vitepress/theme'
-import type {Theme as ThemeConfig} from 'vitepress'
 
+
+
+import {h} from 'vue'
+import DefaultTheme from 'vitepress/theme-without-fonts'
+import type {Theme as ThemeConfig} from 'vitepress'
+import './style.css'
 /**
  * 阅读增强
  */
@@ -55,6 +58,8 @@ import ArchiveSummary from './components/ArchiveSummary.vue'
 import ArticleMetadata from './components/ArticleMetadata.vue'
 import WordCloud from './components/WordCloud.vue'
 
+
+
 export const Theme: ThemeConfig = {
     extends: DefaultTheme,
     Layout: () => {
@@ -69,7 +74,7 @@ export const Theme: ThemeConfig = {
     enhanceApp({app}) {
         app.provide(NolebaseEnhancedReadabilitiesInjectionKey, {
             layoutSwitch: {
-                defaultMode: NolebaseEnhancedReadabilitiesLayoutMode.SidebarWidthAdjustableOnly,
+                defaultMode: NolebaseEnhancedReadabilitiesLayoutMode.BothWidthAdjustable,
             },
             spotlight: {
                 defaultToggle: true,
@@ -96,6 +101,6 @@ export const Theme: ThemeConfig = {
     setup() {
 
     }
-}
+} 
 
-export default Theme
+export default Theme satisfies ThemeConfig
