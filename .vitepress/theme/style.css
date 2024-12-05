@@ -141,6 +141,6 @@ strong {
   text-shadow: 0.5px 0;
 }
 
-body {
-  zoom: 1.4; /* Scale content to 150% */
+.Layout {
+  font-size: 140%;
 }
