@@ -15,6 +15,9 @@ icon: /assets/icons/nixos.png
 对于**NixOS**，除了磁盘分区那些硬的，几乎没有什么是不能装完了再做的。 
 所以先装好——然后你就可以靠**NixOS**的可复现性：不用怕搞坏系统随便草了！
 
+下面是我遇到的各种问题及其解决方案，
+我的NixOS配置可以在[https://github.com/Glomzzz/NixOS](https://github.com/Glomzzz/NixOS)中看到。
+
 ## Home Manager
 
 ### 某次switch后系统崩溃！
