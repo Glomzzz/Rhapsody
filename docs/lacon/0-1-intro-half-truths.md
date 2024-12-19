@@ -7,6 +7,11 @@ tags:
 icon: /assets/icons/lacon.jpg
 ---
 
+
+<p align="center">
+  <img width="720" src="/assets/icons/lacon.jpg" alt="logo">
+</p>
+
 # 0.1.序章-真理不尽然
 
 精神分析是一场解放性的运动，他本该将人们从对某物的深信不疑中解脱出来。

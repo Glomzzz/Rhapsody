@@ -6,6 +6,10 @@ tags:
 icon: /assets/icons/gleam.jpg
 ---
 
+<p align="center">
+  <img width="720" src="/assets/icons/gleam.jpg" alt="logo">
+</p>
+
 # 0.2.序章-永夜中之微光
 
 摘抄自《永夜微光》绪论
