@@ -1,3 +1,19 @@
+---
+category: philosophy
+date: 2024-12-17 08:11
+tags:
+  - 拉康精神分析
+  - 镜像阶段
+  - 测试
+icon: /assets/icons/mirror.jpg
+---
+
+<p align="center">
+  <img width="720" src="/assets/icons/mirror.jpg" alt="logo">
+</p>
+
+# 1.3.镜像阶段-阶段性测试
+
 1. （判断题）拉康希望我们把它的理论当作真理而传承下去。
 2. （填空题）镜像阶段借助的三个最重要的外部理论是什么？
 3. （判断题）镜像实验是拉康本人的发明
