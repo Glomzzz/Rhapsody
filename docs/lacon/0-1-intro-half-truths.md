@@ -2,8 +2,7 @@
 category: philosophy
 date: 2024-12-12 01:47
 tags:
-  - 拉康
-  - 精神分析
+  - 拉康精神分析
   - 真理
 icon: /assets/icons/lacon.jpg
 ---
