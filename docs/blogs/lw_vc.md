@@ -1,5 +1,5 @@
 ---
-category: life
+category: phil
 date: 2024-11-17 04:19
 tags:
   - Thoughts
