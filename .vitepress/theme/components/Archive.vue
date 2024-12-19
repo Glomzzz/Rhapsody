@@ -160,9 +160,6 @@ function initTimeline() {
       archiveData[year].mouths.push({month, articles: archiveData[year][month]})
     }
     article.categoryDisplay = categoryLocales[lang.value][article.category] ?? categoryLocales[lang.value]['none'];
-    console.log(categories)
-    console.log(article.category)
-    console.log(categories[article.category])
     article.categoryIcon = categories[article.category].icon ?? categories['none'].icon;
     archiveData[year].mouths.sort((a, b) => b.month - a.month);
     archiveData[year][month].push(article);
