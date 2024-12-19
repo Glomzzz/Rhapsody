@@ -15,10 +15,10 @@
 .meta-item {
     display: inline-block;
     overflow: hidden;
-    text-overflow: ellipsis;
+    text-overflow: clip;
     white-space: nowrap;
     vertical-align: middle;
-    max-width: 500px;
+    max-width: 1000px;
     color: var(--vp-c-text-2);
     cursor: default;
     font-size: 18px;
