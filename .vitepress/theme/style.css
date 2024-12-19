@@ -137,10 +137,6 @@
   --docsearch-primary-color: var(--vp-c-brand-1) !important;
 }
 
-strong {
-  text-shadow: 0.5px 0;
-}
-
 .Layout {
   font-size: 140%;
 }
