@@ -11,7 +11,7 @@ export const locales = localesOf<Config>({
     root: {
         tech: 'Tech',
         life: 'Life',
-        phil: 'Philosophy',
+        philosophy: 'Philosophy',
         roadmap: 'Roadmap',
         none: 'No Category'
     }

@@ -1,5 +1,5 @@
 ---
-category: phil
+category: philosophy
 date: 2024-12-12 01:47
 tags:
   - 拉康
